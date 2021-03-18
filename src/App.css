@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +20,7 @@
   font-size: 3rem;
 }
 
-.menu {
+/* .menu {
   background-image: url('./images/BSK-Flyer.jpg');
   height: 1535px;
   background-position: bottom;
@@ -24,7 +28,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
 
 .recipes-blog {
   background-image: url('./images/eggs.jpg');

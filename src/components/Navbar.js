@@ -29,7 +29,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                   BeeSquareKitchen <i class="fas fa-egg" />
+                   <img src="./images/logo.png" alt="BeeSquareKitchen"/> BeeSquareKitchen
                </Link>
                <div className="menu-icon" onClick={() => setClick(!click)}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />   
@@ -41,13 +41,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/menu' className='nav-links' onClick={closeMobileMenu}>
-                            Menu
+                        <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                            About
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/recipes-blog' className='nav-links' onClick={closeMobileMenu}>
-                            Recipes Blog
+                        <Link to='/menu' className='nav-links' onClick={closeMobileMenu}>
+                            Menu
                         </Link>
                     </li>
                     <li className="nav-item">

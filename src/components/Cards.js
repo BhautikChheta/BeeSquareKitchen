@@ -6,11 +6,11 @@ function Cards() {
     return (
         <div className='cards'>
             <h1>Check out these Special Items! </h1>
-            <div className="cards__container">
+            <div className="cards__container" >
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src='/images/tikhari.png'
+                        src='/images/Tikhari.jpg'
                         text='The best EGG TIKHARI!!'
                         label='Tikhari'
                         path='/Menu'
@@ -22,9 +22,9 @@ function Cards() {
                         path='/Menu'
                         />
                         <CardItem 
-                        src='/images/gotalo.png'
-                        text='Yummyy EGG GOTALO!!'
-                        label='Gotalo'
+                        src='/images/AustralianFry.jpg'
+                        text='Yummy Australian Fry!!'
+                        label='Australian Fry'
                         path='/Menu'
                         />
                     </ul>
