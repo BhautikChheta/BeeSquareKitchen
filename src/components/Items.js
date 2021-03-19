@@ -115,12 +115,6 @@ function Items() {
                         />
                     </ul>
                 </div>
-
-
-
-
-
-
                 <div className="menu__wrapper_three">
                     <ul className="menu__items">
                         <MenuItem
@@ -231,10 +225,6 @@ function Items() {
                         />
                     </ul>
                 </div>
-
-
-
-
                 <div className="menu__wrapper_two">
                     <ul className="menu__items">
                         <MenuItem
